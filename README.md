@@ -4,8 +4,10 @@ Calculate curvature of plane curves
 ## Getting Started
 
 The data are the outlines of animal shape. The outline is given as a 150X2 matrix containing the x-coordinates and y-coordinates of a polygonal approximation to the outline.
+![ScreenShot](/Users/whz/Desktop/bird.png)
 
 For contour C, compute the curvature K at each point.
+![ScreenShot](/Users/whz/Desktop/img605.gif)
 
 ### Prerequisites
 python 3.6
@@ -26,6 +28,9 @@ The output gives you a list including curvature at each point.
 ...
  -1.99900968e-01 -2.32916727e-01]
 ```
+
+Also, it will give an scatter plot of matrix:
+![ScreenShot](/Users/whz/Desktop/bird2.png)
 ## Authors
 
 * **Haozhe Wang** 
